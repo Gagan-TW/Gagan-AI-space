@@ -10,7 +10,7 @@ This marketplace demonstrates the full spectrum of Claude Code capabilities — 
 
 **Repo**: [Gagan-TW/Gagan-AI-space](https://github.com/Gagan-TW/Gagan-AI-space)  
 **Language**: JavaScript (100%)  
-**Description**: TWTAI Marketplace  
+**Description**: Gagan's AI Space Marketplace  
 
 ## The hierarchy at a glance
 
