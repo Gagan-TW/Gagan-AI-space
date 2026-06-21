@@ -1,11 +1,11 @@
 {
-  "name": "twtai",
+  "name": "GaganAI",
   "owner": {
-    "name": "Tech Writer's Tribe",
-    "email": "twt@example.com"
+    "name": "Gagandeep Kaur",
+    "email": "gagantechwriter@gmail.com"
   },
   "metadata": {
-    "description": "Sample marketplace for the TWT AI program — documentation skills, an agent, and a bundled MCP server.",
+    "description": "Sample marketplace for my AI space that includes documentation skills, an agent, and a bundled MCP server.",
     "version": "1.1.0"
   },
   "plugins": [
