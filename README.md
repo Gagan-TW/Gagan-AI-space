@@ -1,8 +1,16 @@
-# TWTAI Skills — a sample Claude Code marketplace
+# TWTAI Marketplace — Gagan's AI Space
 
-A complete, working **reference marketplace** for the Tech Writer's Tribe (TWT) AI program. It exists to show participants *how the pieces fit together* — a marketplace that contains a plugin, and a plugin that bundles a command, a skill, an agent, a hook, and (remote) MCP servers — plus a standalone script and a sample doc to test on.
+A complete, working **reference marketplace** for the Tech Writer's Tribe (TWT) AI program, maintained by **Gagan-TW**. This is a showcase of how the pieces fit together — a marketplace that contains plugins, skills, agents, and MCP servers to demonstrate real-world integration patterns.
 
-Clone it, read it, install it, then build your own the same way.
+Clone it, read it, install it, then build your own the same way. Built with JavaScript.
+
+## About This Project
+
+This marketplace demonstrates the full spectrum of Claude Code extensibility — from simple commands to sophisticated agents and remote MCP server integrations. Whether you're learning the TWT AI program or building your own marketplace, this repo serves as a complete working example.
+
+**Repo**: [Gagan-TW/Gagan-AI-space](https://github.com/Gagan-TW/Gagan-AI-space)  
+**Language**: JavaScript (100%)  
+**Description**: TWTAI Marketplace  
 
 ## The hierarchy at a glance
 
@@ -38,8 +46,8 @@ twtai-skill/                          ← THIS REPO = a marketplace
 ## Use it (as an individual)
 
 ```
-/plugin marketplace add AmanProjects/twtai-skill   ← add the catalog
-/plugin install doc-skills@twtai                    ← install the plugin
+/plugin marketplace add Gagan-TW/Gagan-AI-space   ← add the catalog
+/plugin install doc-skills@twtai                   ← install the plugin
 ```
 
 `twtai` is the marketplace `name` from `marketplace.json` (not the repo name). After installing, these are available:
@@ -61,7 +69,7 @@ This repo deliberately uses **online, hosted** MCP servers so there is nothing t
 | **DeepWiki** (Cognition/Devin) | `https://mcp.deepwiki.com/mcp` | Ask questions about any public GitHub repo's docs |
 | **Claude Code Docs** (Anthropic) | `https://code.claude.com/docs/mcp` | Search the official Claude Code documentation |
 
-Installing the `doc-skills` plugin connects them automatically. To connect **without** the plugin, see [`examples/remote-mcp/`](examples/remote-mcp/) — it shows both the one-line `claude mcp add` command and the shareable project `.mcp.json`.
+Installing the `doc-skills` plugin connects them automatically. To connect **without** the plugin, see [`examples/remote-mcp/`](examples/remote-mcp/) — it shows both the one-line `claude mcp add` command and the shared `.mcp.json` approach.
 
 ## Try the standalone script (no install needed)
 
@@ -69,7 +77,7 @@ Installing the `doc-skills` plugin connects them automatically. To connect **wit
 node scripts/check-links.mjs README.md
 ```
 
-Dependency-free Markdown link checker (Node 18+). Reports broken http(s) links and missing relative files. (Try it on `README.md` — which has real links — rather than the sample doc, whose only URL sits inside a code block.)
+Dependency-free Markdown link checker (Node 18+). Reports broken http(s) links and missing relative files. (Try it on `README.md` — which has real links — rather than the sample doc, whose only links are intentionally broken to show the checker in action.)
 
 ## Build your own marketplace (the 5-minute loop)
 
@@ -80,3 +88,8 @@ Dependency-free Markdown link checker (Node 18+). Reports broken http(s) links a
 5. Share two lines: `/plugin marketplace add you/your-repo` and `/plugin install your-plugin@your-marketplace`.
 
 Covered in **Module 4** of the TWT program. This repo is the worked example.
+
+---
+
+**Maintained by**: [Gagan-TW](https://github.com/Gagan-TW)  
+**Part of**: Tech Writer's Tribe (TWT) AI Program
