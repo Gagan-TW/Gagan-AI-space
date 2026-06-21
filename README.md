@@ -1,12 +1,12 @@
-# TWTAI Marketplace — Gagan's AI Space
+# Gagan's AI Space — Marketplace
 
-A complete, working **reference marketplace** for the Tech Writer's Tribe (TWT) AI program, maintained by **Gagan-TW**. This is a showcase of how the pieces fit together — a marketplace that contains plugins, skills, agents, and MCP servers to demonstrate real-world integration patterns.
+A complete, working **reference marketplace** showcasing Claude Code extensibility. This repository demonstrates how to build and integrate plugins, skills, agents, and MCP servers into a cohesive marketplace platform.
 
-Clone it, read it, install it, then build your own the same way. Built with JavaScript.
+Clone it, read it, install it, then build your own. Built with JavaScript.
 
 ## About This Project
 
-This marketplace demonstrates the full spectrum of Claude Code extensibility — from simple commands to sophisticated agents and remote MCP server integrations. Whether you're learning the TWT AI program or building your own marketplace, this repo serves as a complete working example.
+This marketplace demonstrates the full spectrum of Claude Code capabilities — from simple commands to sophisticated agents and remote MCP server integrations. A complete working example for building your own marketplace and extending Claude Code with custom functionality.
 
 **Repo**: [Gagan-TW/Gagan-AI-space](https://github.com/Gagan-TW/Gagan-AI-space)  
 **Language**: JavaScript (100%)  
@@ -15,7 +15,7 @@ This marketplace demonstrates the full spectrum of Claude Code extensibility —
 ## The hierarchy at a glance
 
 ```
-twtai-skill/                          ← THIS REPO = a marketplace
+gagan-marketplace/                    ← THIS REPO = a marketplace
 ├── .claude-plugin/
 │   └── marketplace.json              ← the catalog (lists plugins)
 ├── plugins/
@@ -47,10 +47,10 @@ twtai-skill/                          ← THIS REPO = a marketplace
 
 ```
 /plugin marketplace add Gagan-TW/Gagan-AI-space   ← add the catalog
-/plugin install doc-skills@twtai                   ← install the plugin
+/plugin install doc-skills@gagan                   ← install the plugin
 ```
 
-`twtai` is the marketplace `name` from `marketplace.json` (not the repo name). After installing, these are available:
+`gagan` is the marketplace `name` from `marketplace.json` (not the repo name). After installing, these are available:
 
 | Component | How you use it |
 |-----------|----------------|
@@ -62,7 +62,7 @@ twtai-skill/                          ← THIS REPO = a marketplace
 
 ## The MCP servers are remote and safe
 
-This repo deliberately uses **online, hosted** MCP servers so there is nothing to install or run — and both are **read-only with no login or API key**, which makes them safe for a classroom:
+This repo deliberately uses **online, hosted** MCP servers so there is nothing to install or run — and both are **read-only with no login or API key**, which makes them safe for any environment:
 
 | Server | URL | What it does |
 |--------|-----|--------------|
@@ -87,9 +87,6 @@ Dependency-free Markdown link checker (Node 18+). Reports broken http(s) links a
 4. Commit and push.
 5. Share two lines: `/plugin marketplace add you/your-repo` and `/plugin install your-plugin@your-marketplace`.
 
-Covered in **Module 4** of the TWT program. This repo is the worked example.
-
 ---
 
-**Maintained by**: [Gagan-TW](https://github.com/Gagan-TW)  
-**Part of**: Tech Writer's Tribe (TWT) AI Program
+**Maintained by**: [Gagan-TW](https://github.com/Gagan-TW)
